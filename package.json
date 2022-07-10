@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "vite": "vite ./src -c ./vite.config.ts",
+    "prettier": "prettier -w .",
+    "prettier:check": "prettier -c ."
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "vite": "^2.9.14"
+  }
+}

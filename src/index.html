@@ -1,0 +1,10 @@
+<ul></ul>
+<script type="module">
+  const EXAMPLES = ["inline-basic", "inline-fragment"];
+  const ul = document.querySelector("ul");
+  for (const example of EXAMPLES) {
+    const li = document.createElement("li");
+    li.innerHTML = `<a href="./${example}.html">${example}</a>`;
+    ul.appendChild(li);
+  }
+</script>

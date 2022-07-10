@@ -1,0 +1,98 @@
+<head>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+  />
+  <link rel="stylesheet" href="./css/base.css" />
+</head>
+<body>
+  <!-- https://www.w3.org/TR/css-inline-3/#line-layout -->
+
+  <div style="display: flex; flex-direction: column; gap: 30px">
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span style="border: 1px solid #f00; font-size: 25px">xyZ</span>
+        xyZ
+        <span style="border: 1px solid #0f0; font-size: 40px">xyZ</span>
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000; text-decoration: underline">
+      <span style="border: 1px dashed #0aa">
+        <span style="border: 1px solid #f00; font-size: 25px">xyZ</span>
+        xyZ
+        <span style="border: 1px solid #0f0; font-size: 40px">xyZ</span>
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span style="border: 1px solid #f00; font-size: 25px">xyZ</span>
+        xyZ
+        <span style="border: 1px solid #0f0; font-size: 40px">xyZ</span>
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span
+          style="border: 1px solid #f00; font-size: 25px; vertical-align: top"
+          >xyZ</span
+        >
+        xyZ
+        <span style="border: 1px solid #0f0; font-size: 40px">xyZ</span>
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span style="border: 1px solid #f00; font-size: 25px">xyZ</span>
+        xyZ
+        <!-- padding affects border box, but doesn't not affect "layout bounds" (aka logical height) of a line box. -->
+        <span style="border: 1px solid #0f0; font-size: 40px; padding: 10px 0"
+          >xyZ</span
+        >
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span
+          style="border: 1px solid #f00; font-size: 25px; vertical-align: top"
+          >xyZ</span
+        >
+        xyZ
+        <!-- padding affects border box, but doesn't not affect "layout bounds" (aka logical height) of a line box. -->
+        <span style="border: 1px solid #0f0; font-size: 40px; padding: 10px 0"
+          >xyZ</span
+        >
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span style="border: 1px solid #f00; font-size: 25px">xyZ</span>
+        xyZ
+        <!-- line-height doesn't affect border box -->
+        <span style="border: 1px solid #0f0; font-size: 40px; line-height: 60px"
+          >xyZ</span
+        >
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+    <div style="border: 1px dotted #000">
+      <span style="border: 1px dashed #0aa">
+        <span
+          style="border: 1px solid #f00; font-size: 25px; vertical-align: top"
+          >xyZ</span
+        >
+        xyZ
+        <!-- line-height doesn't affect border box -->
+        <span style="border: 1px solid #0f0; font-size: 40px; line-height: 60px"
+          >xyZ</span
+        >
+        <span style="border: 1px solid #00f; font-size: 10px">xyZ</span>
+      </span>
+    </div>
+  </div>
+</body>
